@@ -1,0 +1,70 @@
+:root {
+    --primary-soft: hsl(193, 38%, 86%);
+    --primary-medium: hsl(150, 100%, 66%);
+
+    --neutral-soft: hsl(217, 19%, 38%);
+    --neutral-medium: hsl(217, 19%, 24%);
+    --neutral-dark: hsl(218, 23%, 16%);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--neutral-dark);
+}
+
+.principal {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    max-width: 410px;
+    border-radius: 10px;
+    padding: 25px 25px 55px 25px;
+    margin: 0 15px;
+    background-color: var(--neutral-medium);
+}
+
+.principal h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--primary-medium);
+}
+
+.principal p {
+    margin: 15px 0 30px 0;
+    font-size: 28px;
+    text-align: center;
+    color: var(--primary-soft);
+}
+.principal img {
+    width: 100%;
+}
+
+.principal .dado {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    bottom: -24px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--primary-medium);
+}
+
+.principal .dado img {
+    width: 18px;
+}
+
+.attribution {
+    color: var(--primary-soft);
+    position: absolute;
+    bottom: 3px;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: var(--primary-medium); 
+}
