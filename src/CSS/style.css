@@ -51,7 +51,12 @@
     bottom: -24px;
     padding: 15px;
     border-radius: 50%;
+    transition: ease-in-out 0.2s;
     background-color: var(--primary-medium);
+}
+
+.principal .dado:hover {
+    box-shadow: 0 0 40px var(--primary-medium) ;
 }
 
 .principal .dado img {
